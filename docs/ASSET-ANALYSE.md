@@ -23,3 +23,7 @@ Der Nutzer stellte zwei Screenshots und die offizielle interaktive Karte bereit.
 ## Zweiter vollständiger Scan während der Umsetzung
 
 Während der Arbeit kamen neun weitere generierte Konzeptbilder hinzu. Damit umfasst der Konzept-Unterordner jetzt elf Dateien: zwei breite Szenen und neun Hochformate. Alle wurden visuell als Kontaktbogen geprüft und dem Inventar hinzugefügt. Die breite Abend-/Community-Szene `01_40_20 PM` wird als Desktop-Vision verwendet, `01_47_18 PM-1` als passende mobile Hochformat-Vision. Die weiteren Varianten bleiben bewusst ungenutzt: echte Eventaufnahmen sollen den Pitch tragen.
+
+## Verbindliche Auswahl des Betreibers
+
+Die aktuelle Website verwendet für echte LOOPFEST-Fotos ausschließlich Quellen aus `IMPRESSIONEN VOM LOOPFEST/fotos zu nutzen`. Vier Fotos sind eingesetzt; das zusätzlich freigegebene Querformat bleibt als Alternative verfügbar. Alte Webkopien einschließlich des abgelehnten Zubereitungsfotos wurden aus dem ausgelieferten Projekt entfernt. Das Eventvideo liegt ebenfalls im freigegebenen Ordner und ist bytegleich mit der ursprünglichen Videoquelle. Die vollständige Zuordnung steht in `approved-loopfest-assets.json`. Die historischen Inventare dokumentieren nur den ursprünglichen Bestand, keine aktuelle Veröffentlichungsfreigabe.
