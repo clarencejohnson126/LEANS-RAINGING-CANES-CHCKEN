@@ -46,10 +46,11 @@ export default function Home() {
               <a
                 className="button red"
                 href="/downloads/Leans_FRANKLIN_Konzeptbeschreibung_MWSP_FINAL.pdf"
-                download="Leans_FRANKLIN_Konzeptbeschreibung_MWSP_FINAL.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <span>Pilotprojekt als PDF herunterladen</span>
-                <span aria-hidden="true">↓</span>
+                <span>Pilotprojekt als PDF ansehen</span>
+                <span aria-hidden="true">↗</span>
               </a>
               <a className="text-link" href="#standort">
                 Was wir suchen <span aria-hidden="true">↓</span>
