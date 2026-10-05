@@ -1,34 +1,87 @@
 export const mapSources = {
-  interactive: 'https://franklin-mannheim.de/interaktive-karte/',
-  overview: 'https://www.mannheim.de/de/stadt-gestalten/planungskonzepte/aktuelle-projekte/benjamin-franklin-village-franklin',
-  register: 'https://service.gis-mannheim.de/mannheim/mod_plan_bw/',
-  funari: 'https://service.gis-mannheim.de/plaene_docs/B_71_52/BP_71_52_Begruendung.pdf',
-  sullivan: 'https://service.gis-mannheim.de/plaene_docs/B_71_59/BP_71_59_Festsetzungen.pdf',
-  sullivanPlan: 'https://service.gis-mannheim.de/plaene_docs/B_71_59/BP_71_59_BPlan.pdf',
+  interactive: "https://franklin-mannheim.de/interaktive-karte/",
+  overview:
+    "https://www.mannheim.de/de/stadt-gestalten/planungskonzepte/aktuelle-projekte/benjamin-franklin-village-franklin",
+  register: "https://service.gis-mannheim.de/mannheim/mod_plan_bw/",
+  funari:
+    "https://service.gis-mannheim.de/plaene_docs/B_71_52/BP_71_52_Begruendung.pdf",
+  sullivan:
+    "https://service.gis-mannheim.de/plaene_docs/B_71_59/BP_71_59_Festsetzungen.pdf",
+  sullivanPlan:
+    "https://service.gis-mannheim.de/plaene_docs/B_71_59/BP_71_59_BPlan.pdf",
 };
 export const locations = [
-  {id:'funari',number:'01',title:'Funari',tag:'MISCHGEBIET · B-PLAN 71.52',x:30,y:85,
-   location:'Zwischen Robert-Funari-Straße und Bensheimer Straße.',
-   finding:'Der Bebauungsplan 71.52 setzt Mischgebiete fest. Das städtische Verzeichnis nennt den 11.04.2019 als Inkrafttreten.',
-   proposal:'Unser Suchvorschlag: eine kleine, gut sichtbare Außenfläche im Umfeld der gewerblichen Nutzungen. Auch private Eigentümer kommen für eine Anfrage infrage.',
-   caveat:'Die nördlich angrenzende Wohnbebauung „Funari Traumhaus“ ist ein eigener Planbereich und wird hier nicht pauschal als Mischgebiet eingeordnet.',
-   source:mapSources.funari,sourceLabel:'Begründung B-Plan 71.52',status:'Planstand im städtischen Verzeichnis geprüft'},
-  {id:'sullivan',number:'02',title:'Sullivan Süd',tag:'MISCHGEBIETE · B-PLAN 71.59',x:77,y:52,
-   location:'Südlicher Sullivan-Bereich am Joy-Fleming-Ring, nördlich der Birkenauer Straße.',
-   finding:'In Kraft seit 25.06.2026 laut städtischem Verzeichnis. Die Festsetzungen unterscheiden MI 1.1, MI 2 und MI 3 sowie das gesonderte MI 1.2.',
-   proposal:'Unser Suchvorschlag: Außenflächen bei den gemischten Nutzungen mit dem Eigentümer beziehungsweise Vorhabenträger prüfen.',
-   caveat:'MI 1.2 ist ausschließlich für Parkgaragen und zugehörige Nebenanlagen vorgesehen. Außerdem bindet der vorhabenbezogene Plan die Zulässigkeit an den Durchführungsvertrag. Keine pauschale Foodtruck-Freigabe.',
-   source:mapSources.sullivan,sourceLabel:'Festsetzungen B-Plan 71.59',status:'Aktueller Plan ersetzt hier den älteren Sullivan-Plan'},
-  {id:'mitte',number:'03',title:'FRANKLIN Mitte',tag:'NAHVERSORGUNG & DIENSTLEISTUNGEN',x:43,y:53,
-   location:'Umfeld Grüne Mitte / Europaachse.',
-   finding:'Die Stadt beschreibt die Grüne Mitte als Nahversorgungszentrum mit ergänzenden Dienstleistungen. Das ist ein funktionaler Suchansatz, keine Einstufung des gesamten Quartiers als Mischgebiet.',
-   proposal:'Unser Suchvorschlag: eine erreichbare Außenfläche im Umfeld der Versorgungsangebote – nah am Quartiersalltag und den Fußwegen.',
-   caveat:'Öffentliche Grünflächen, Wege und Plätze sind nicht automatisch nutzbare Stellflächen. Konkretes Grundstück, Betreiberinteressen und Nutzung müssen geprüft werden.',
-   source:mapSources.overview,sourceLabel:'Städtebauliches Konzept der Stadt',status:'Suchraum aus der offiziellen Quartiersbeschreibung'},
-  {id:'columbus',number:'04',title:'Columbus',tag:'GEWERBEQUARTIER · ERGÄNZENDE OPTION',x:68,y:81,
-   location:'Entlang der Birkenauer Straße zwischen Wohnquartier und B38.',
-   finding:'Die Stadt beschreibt Columbus als Gewerbegebiet für Einzelhandel, Büro- und Dienstleistungsnutzungen.',
-   proposal:'Unser Suchvorschlag: eine kleine Außenfläche bei bestehenden gewerblichen Nutzungen. Interessant als ergänzende Option für den Mittagsbetrieb.',
-   caveat:'Die konkrete Teilfläche kann besonderen Festsetzungen unterliegen. Die Quartiersbeschreibung belegt weder Gastronomiezulässigkeit noch freie Flächen.',
-   source:mapSources.overview,sourceLabel:'Städtebauliches Konzept der Stadt',status:'Gewerblicher Suchraum; Einzelfläche noch offen'},
+  {
+    id: "funari",
+    number: "01",
+    title: "Funari",
+    tag: "MISCHGEBIET · B-PLAN 71.52",
+    x: 30,
+    y: 85,
+    location: "Zwischen Robert-Funari-Straße und Bensheimer Straße.",
+    finding:
+      "Der Bebauungsplan 71.52 setzt Mischgebiete fest. Das städtische Verzeichnis nennt den 11.04.2019 als Inkrafttreten.",
+    proposal:
+      "Unser Suchvorschlag: eine kleine, gut sichtbare Außenfläche im Umfeld der gewerblichen Nutzungen. Auch private Eigentümer kommen für eine Anfrage infrage.",
+    caveat:
+      "Die nördlich angrenzende Wohnbebauung „Funari Traumhaus“ ist ein eigener Planbereich und wird hier nicht pauschal als Mischgebiet eingeordnet.",
+    source: mapSources.funari,
+    sourceLabel: "Begründung B-Plan 71.52",
+    status: "Planstand im städtischen Verzeichnis geprüft",
+  },
+  {
+    id: "sullivan",
+    number: "02",
+    title: "Sullivan Süd",
+    tag: "MISCHGEBIETE · B-PLAN 71.59",
+    x: 77,
+    y: 52,
+    location:
+      "Südlicher Sullivan-Bereich am Joy-Fleming-Ring, nördlich der Birkenauer Straße.",
+    finding:
+      "In Kraft seit 25.06.2026 laut städtischem Verzeichnis. Die Festsetzungen unterscheiden MI 1.1, MI 2 und MI 3 sowie das gesonderte MI 1.2.",
+    proposal:
+      "Unser Suchvorschlag: Außenflächen bei den gemischten Nutzungen mit dem Eigentümer beziehungsweise Vorhabenträger prüfen.",
+    caveat:
+      "MI 1.2 ist ausschließlich für Parkgaragen und zugehörige Nebenanlagen vorgesehen. Außerdem bindet der vorhabenbezogene Plan die Zulässigkeit an den Durchführungsvertrag. Keine pauschale Foodtruck-Freigabe.",
+    source: mapSources.sullivan,
+    sourceLabel: "Festsetzungen B-Plan 71.59",
+    status: "Aktueller Plan ersetzt hier den älteren Sullivan-Plan",
+  },
+  {
+    id: "mitte",
+    number: "03",
+    title: "FRANKLIN Mitte",
+    tag: "NAHVERSORGUNG & DIENSTLEISTUNGEN",
+    x: 43,
+    y: 53,
+    location: "Umfeld Grüne Mitte / Europaachse.",
+    finding:
+      "Die Stadt beschreibt die Grüne Mitte als Nahversorgungszentrum mit ergänzenden Dienstleistungen. Das ist ein funktionaler Suchansatz, keine Einstufung des gesamten Quartiers als Mischgebiet.",
+    proposal:
+      "Unser Suchvorschlag: eine erreichbare Außenfläche im Umfeld der Versorgungsangebote – nah am Quartiersalltag und den Fußwegen.",
+    caveat:
+      "Öffentliche Grünflächen, Wege und Plätze sind nicht automatisch nutzbare Stellflächen. Konkretes Grundstück, Betreiberinteressen und Nutzung müssen geprüft werden.",
+    source: mapSources.overview,
+    sourceLabel: "Städtebauliches Konzept der Stadt",
+    status: "Suchraum aus der offiziellen Quartiersbeschreibung",
+  },
+  {
+    id: "columbus",
+    number: "04",
+    title: "Columbus",
+    tag: "GEWERBEQUARTIER · ERGÄNZENDE OPTION",
+    x: 68,
+    y: 81,
+    location: "Entlang der Birkenauer Straße zwischen Wohnquartier und B38.",
+    finding:
+      "Die Stadt beschreibt Columbus als Gewerbegebiet für Einzelhandel, Büro- und Dienstleistungsnutzungen.",
+    proposal:
+      "Unser Suchvorschlag: eine kleine Außenfläche bei bestehenden gewerblichen Nutzungen. Interessant als ergänzende Option für den Mittagsbetrieb.",
+    caveat:
+      "Die konkrete Teilfläche kann besonderen Festsetzungen unterliegen. Die Quartiersbeschreibung belegt weder Gastronomiezulässigkeit noch freie Flächen.",
+    source: mapSources.overview,
+    sourceLabel: "Städtebauliches Konzept der Stadt",
+    status: "Gewerblicher Suchraum; Einzelfläche noch offen",
+  },
 ];
