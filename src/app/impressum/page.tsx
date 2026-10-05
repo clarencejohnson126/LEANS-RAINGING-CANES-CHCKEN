@@ -33,7 +33,7 @@ export default function Impressum() {
       <h2>Projektmaterialien</h2>
       <p>
         Die Website verwendet vom Betreiber bereitgestellte LOOPFEST-Aufnahmen,
-        Flyer und Konzeptmaterialien. Generierte Bilder und
+        Flyer und Konzeptmaterialien. Konzeptbilder und
         Werbevisualisierungen sind entsprechend gekennzeichnet.
       </p>
       <p className="todo">

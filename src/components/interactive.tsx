@@ -12,8 +12,8 @@ export function Header() {
           ♛
         </span>
         <span>
-          {brand.wordmark}
-          <small>{brand.descriptor}</small>
+          {brand.name}
+          <small>{brand.tagline}</small>
         </span>
       </a>
       <nav className="desktop-nav" aria-label="Hauptnavigation">

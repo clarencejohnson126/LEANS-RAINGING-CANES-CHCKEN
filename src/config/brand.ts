@@ -1,6 +1,6 @@
 export const brand = {
-  name: "LEAN'S RAISING CANES CHICKEN",
+  name: "Lean's Raising Canes Chicken",
   wordmark: "LEAN’S",
-  descriptor: "CHICKEN & COFFEE",
+  descriptor: "RAISING CANES CHICKEN",
   tagline: "Aus FRANKLIN. Für FRANKLIN.",
 };

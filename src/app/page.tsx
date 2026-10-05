@@ -90,12 +90,12 @@ export default function Home() {
             </div>
             <figure className="photo-small">
               <Image
-                src="/assets/loopfest/cooking.webp"
-                alt="Chicken und Pommes werden beim LOOPFEST frisch am Stand zubereitet"
+                src="/assets/loopfest/lean.webp"
+                alt="Lean beim LOOPFEST neben dem Aufsteller von Lean’s Raising Canes Chicken"
                 width={390}
                 height={540}
               />
-              <figcaption>Made with love. Und richtig viel Crunch.</figcaption>
+              <figcaption>Hier hat alles angefangen.</figcaption>
             </figure>
             <span className="hero-star" aria-hidden="true">
               ✳
@@ -148,13 +148,15 @@ export default function Home() {
           </div>
           <div className="proof-grid">
             <figure className="proof-photo">
-              <Image
-                src="/assets/loopfest/stand.webp"
-                alt="Das Team bereitet Chicken am mobilen LOOPFEST-Stand zu"
-                width={1200}
-                height={1600}
-                sizes="(max-width:760px) 90vw, 40vw"
-              />
+              <div className="proof-crop">
+                <Image
+                  src="/assets/loopfest/stand.webp"
+                  alt="Das Team bereitet Chicken am mobilen LOOPFEST-Stand zu"
+                  width={1200}
+                  height={1600}
+                  sizes="(max-width:760px) 90vw, 40vw"
+                />
+              </div>
               <figcaption>
                 <span>01 — MITTEN IM QUARTIER</span>
                 <span>LOOPFEST ↗</span>
@@ -227,6 +229,31 @@ export default function Home() {
               </p>
               <span>Das möchten wir weiterdenken.</span>
             </div>
+          </div>
+        </section>
+        <section className="promo-section" id="promo">
+          <div className="wrap promo-layout">
+            <div className="promo-copy">
+              <Eyebrow>DER PROMO-FILM</Eyebrow>
+              <h2>
+                CRISPY. JUICY.
+                <br />
+                <em>MADE BY LEAN.</em>
+              </h2>
+              <p className="promo-brand">{brand.name}</p>
+              <p>
+                Unser Chicken. Unsere Marke. Unsere Idee in 30 Sekunden. Der
+                Promo-Film zeigt, wohin die Reise gehen soll.
+              </p>
+              <span className="concept-label-inline">
+                PROMO · KONZEPTVISUALISIERUNG
+              </span>
+            </div>
+            <Video
+              name="promo"
+              title="Promo-Video der Marke"
+              caption={`${brand.name} · PROMO-FILM · 30 SEK.`}
+            />
           </div>
         </section>
         <section className="section wrap food" id="konzept">
@@ -325,11 +352,6 @@ export default function Home() {
                   Werbematerialien / Konzeptdarstellungen. Diese Motive
                   dokumentieren die Markenidee, nicht den Eventbetrieb.
                 </p>
-                <Video
-                  name="promo"
-                  title="Promo-Video der Marke"
-                  caption="PROMO / KONZEPTDARSTELLUNG · 30 SEK."
-                />
               </div>
             </div>
           </details>
@@ -451,7 +473,7 @@ export default function Home() {
           <Image
             className="vision-desktop"
             src="/assets/concept/trailer.webp"
-            alt="KI-generierte Zukunftsvision eines belebten Chicken-Pop-ups – kein realer Anhänger und kein bestätigter Standort"
+            alt="Zukunftsvision eines belebten Chicken-Pop-ups – kein realer Anhänger und kein bestätigter Standort"
             width={1672}
             height={941}
             sizes="100vw"
@@ -459,15 +481,13 @@ export default function Home() {
           <Image
             className="vision-mobile"
             src="/assets/concept/trailer-mobile.webp"
-            alt="KI-Konzept: Chicken-Pop-up mit Gästen – keine reale Standortaufnahme"
+            alt="Konzeptvisualisierung: Chicken-Pop-up mit Gästen – keine reale Standortaufnahme"
             width={941}
             height={1672}
             sizes="100vw"
           />
           <div className="vision-overlay">
-            <span className="concept-label">
-              KONZEPTVISUALISIERUNG · KI-GENERIERT
-            </span>
+            <span className="concept-label">KONZEPTVISUALISIERUNG</span>
             <h2>
               EIN KLEINER ORT.
               <br />
@@ -651,7 +671,7 @@ export default function Home() {
       </main>
       <footer className="wrap footer">
         <a className="footer-brand" href="#top">
-          {brand.wordmark}
+          {brand.name}
           <span>{brand.tagline}</span>
         </a>
         <p>Ein lokales Projekt. Ein bewusster nächster Schritt.</p>
