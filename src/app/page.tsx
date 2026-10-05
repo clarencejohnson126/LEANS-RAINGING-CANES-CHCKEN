@@ -1,3 +1,4 @@
+import { PhotoZoom } from "@/components/photo-zoom";
 import Image from "next/image";
 import { LocationMap } from "@/components/location-map";
 import Link from "next/link";
@@ -74,13 +75,18 @@ export default function Home() {
           </div>
           <div className="hero-visual">
             <div className="photo-main">
-              <Image
+              <PhotoZoom
                 src="/assets/loopfest/approved-community.webp"
                 alt="Besucherinnen und Besucher am Chicken-Stand beim LOOPFEST auf FRANKLIN"
-                fill
-                priority
-                sizes="(max-width: 760px) 90vw, 48vw"
-              />
+              >
+                <Image
+                  src="/assets/loopfest/approved-community.webp"
+                  alt="Besucherinnen und Besucher am Chicken-Stand beim LOOPFEST auf FRANKLIN"
+                  fill
+                  priority
+                  sizes="(max-width: 760px) 90vw, 48vw"
+                />
+              </PhotoZoom>
               <span className="photo-label">
                 ECHTE MOMENTE. ECHTES LOOPFEST.
               </span>
@@ -95,12 +101,17 @@ export default function Home() {
               <span>LOOPFEST · FRANKLIN</span>
             </div>
             <figure className="photo-small">
-              <Image
+              <PhotoZoom
                 src="/assets/loopfest/approved-team.webp"
                 alt="Frische Chicken-Portionen werden beim LOOPFEST gemeinsam angerichtet"
-                width={390}
-                height={540}
-              />
+              >
+                <Image
+                  src="/assets/loopfest/approved-team.webp"
+                  alt="Frische Chicken-Portionen werden beim LOOPFEST gemeinsam angerichtet"
+                  width={390}
+                  height={540}
+                />
+              </PhotoZoom>
               <figcaption>Frisch gemacht. Mitten auf FRANKLIN.</figcaption>
             </figure>
             <span className="hero-star" aria-hidden="true">
@@ -155,13 +166,18 @@ export default function Home() {
           <div className="proof-grid">
             <figure className="proof-photo">
               <div className="approved-proof-crop">
-                <Image
+                <PhotoZoom
                   src="/assets/loopfest/approved-stand.webp"
                   alt="Das Team bereitet Chicken am mobilen LOOPFEST-Stand zu"
-                  width={1200}
-                  height={1600}
-                  sizes="(max-width:760px) 90vw, 40vw"
-                />
+                >
+                  <Image
+                    src="/assets/loopfest/approved-stand.webp"
+                    alt="Das Team bereitet Chicken am mobilen LOOPFEST-Stand zu"
+                    width={1200}
+                    height={1600}
+                    sizes="(max-width:760px) 90vw, 40vw"
+                  />
+                </PhotoZoom>
               </div>
               <figcaption>
                 <span>01 — MITTEN IM QUARTIER</span>
@@ -169,13 +185,18 @@ export default function Home() {
               </figcaption>
             </figure>
             <figure className="proof-photo second">
-              <Image
+              <PhotoZoom
                 src="/assets/loopfest/approved-lean.webp"
                 alt="Ein junger Mitwirkender neben dem bedruckten Aufsteller des Chicken-Projekts"
-                width={1126}
-                height={2000}
-                sizes="(max-width:760px) 90vw, 28vw"
-              />
+              >
+                <Image
+                  src="/assets/loopfest/approved-lean.webp"
+                  alt="Ein junger Mitwirkender neben dem bedruckten Aufsteller des Chicken-Projekts"
+                  width={1126}
+                  height={2000}
+                  sizes="(max-width:760px) 90vw, 28vw"
+                />
+              </PhotoZoom>
               <figcaption>02 — VON DER IDEE ZUM ERSTEN STAND</figcaption>
             </figure>
             <div className="proof-quote">
