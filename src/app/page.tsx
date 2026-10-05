@@ -90,12 +90,12 @@ export default function Home() {
             </div>
             <figure className="photo-small">
               <Image
-                src="/assets/loopfest/lean.webp"
-                alt="Lean beim LOOPFEST neben dem Aufsteller von Lean’s Raising Canes Chicken"
+                src="/assets/loopfest/team.webp"
+                alt="Frische Chicken-Portionen werden beim LOOPFEST gemeinsam angerichtet"
                 width={390}
                 height={540}
               />
-              <figcaption>Hier hat alles angefangen.</figcaption>
+              <figcaption>Frisch gemacht. Mitten auf FRANKLIN.</figcaption>
             </figure>
             <span className="hero-star" aria-hidden="true">
               ✳

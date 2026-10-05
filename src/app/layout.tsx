@@ -1,12 +1,17 @@
 import type { Metadata } from "next";
-import { Barlow_Condensed, Manrope } from "next/font/google";
+import { Permanent_Marker, Kaushan_Script, Manrope } from "next/font/google";
 import { brand } from "@/config/brand";
 import { project } from "@/config/project";
 import "./globals.css";
-const display = Barlow_Condensed({
+const display = Permanent_Marker({
   subsets: ["latin"],
-  weight: ["600", "700", "800"],
+  weight: "400",
   variable: "--font-display",
+});
+const script = Kaushan_Script({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-script",
 });
 const body = Manrope({ subsets: ["latin"], variable: "--font-body" });
 export const metadata: Metadata = {
@@ -36,7 +41,11 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="de">
-      <body className={`${display.variable} ${body.variable}`}>{children}</body>
+      <body
+        className={`${display.variable} ${script.variable} ${body.variable}`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

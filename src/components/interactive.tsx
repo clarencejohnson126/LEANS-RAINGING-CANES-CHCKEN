@@ -8,12 +8,10 @@ export function Header() {
   return (
     <header className="header">
       <a className="brand" href="#top" aria-label={`${brand.name} – Start`}>
-        <span className="crown" aria-hidden="true">
-          ♛
-        </span>
-        <span>
-          {brand.name}
-          <small>{brand.tagline}</small>
+        <span className="brand-lockup" aria-hidden="true">
+          <span className="logo-lead">{brand.logo[0]}</span>
+          <span className="logo-middle">{brand.logo[1]}</span>
+          <span className="logo-end">{brand.logo[2]}</span>
         </span>
       </a>
       <nav className="desktop-nav" aria-label="Hauptnavigation">

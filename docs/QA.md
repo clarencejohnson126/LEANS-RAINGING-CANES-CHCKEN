@@ -27,3 +27,7 @@ Die strukturierten Browserergebnisse liegen in `browser-check.json`.
 - Impressum und Datenschutz sind ausdrücklich markierte Entwürfe; rechtlicher Betreiber und Anschrift fehlen.
 - Veröffentlichungsrechte und tatsächliche Eignung einer konkreten Fläche bleiben Betreiber-/Eigentümerprüfungen.
 - Der vollständige npm-Audit meldet fünf transitive **Entwicklungsabhängigkeits**-Einträge zur derzeit noch ungepatchten `braces`-Kette von `eslint-config-next` (braces, micromatch, fast-glob, Next-Plugin und Config). Das betrifft die lokale Lint-Werkzeugkette, nicht die Runtime. Kein erzwungenes Next-Downgrade vorgenommen.
+
+## Gestaltungsrevision
+
+Auf Wunsch des Betreibers: schwarzer Grund, Rot/Weiß/Gelb, Permanent Marker für Brush-Headlines und Kaushan Script für den Markenschriftzug, Manrope für Lesetexte. Doppeltes Porträt durch eigenständige Eventaufnahme ersetzt. Gasflasche im bezeichneten Foto durch CSS-Bildausschnitt ausgeschlossen; Original unverändert. Promo-Film separat sichtbar. Sichtbare Herkunftskennzeichnung lautet „Konzeptvisualisierung“. Telefonlink zusätzlich auf korrektes Ziffernformat geprüft.
