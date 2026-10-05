@@ -1,0 +1,32 @@
+[
+  {
+    "source": "/Users/clarence/Desktop/LEAN CHICKEN/IMPRESSIONEN VOM LOOPFEST/fotos zu nutzen/WhatsApp Image 2026-10-05 at 13.19.08 (1).jpeg",
+    "web": "/assets/loopfest/approved-community.webp",
+    "sha256": "8ec131ce804bee8bdda8b0b44fb878608b1630596b3c92e46261a8d0e4dd72d7",
+    "dimensions": [1536, 2048]
+  },
+  {
+    "source": "/Users/clarence/Desktop/LEAN CHICKEN/IMPRESSIONEN VOM LOOPFEST/fotos zu nutzen/WhatsApp Image 2026-10-05 at 13.19.13.jpeg",
+    "web": "/assets/loopfest/approved-team.webp",
+    "sha256": "9b89d8a9790b516d761afd597b6798aa7282c29e4e402e0d8f97e3802cf106f9",
+    "dimensions": [2252, 4000]
+  },
+  {
+    "source": "/Users/clarence/Desktop/LEAN CHICKEN/IMPRESSIONEN VOM LOOPFEST/fotos zu nutzen/WhatsApp Image 2026-10-05 at 13.19.12.jpeg",
+    "web": "/assets/loopfest/approved-lean.webp",
+    "sha256": "f013389bafcf9a61cacf4b21642346aebc8134b6dcba9e17a57b3bb732ac829a",
+    "dimensions": [2252, 4000]
+  },
+  {
+    "source": "/Users/clarence/Desktop/LEAN CHICKEN/IMPRESSIONEN VOM LOOPFEST/fotos zu nutzen/Screenshot 2026-10-05 at 14.22.01.png",
+    "web": "/assets/loopfest/approved-stand.webp",
+    "sha256": "0ab4b9b1fa2b396915caa760a0bb219f0b57230348f3898a7873189f87086b17",
+    "dimensions": [810, 1152]
+  },
+  {
+    "source": "/Users/clarence/Desktop/LEAN CHICKEN/IMPRESSIONEN VOM LOOPFEST/fotos zu nutzen/WhatsApp Video 2026-10-05 at 13.19.11.mp4",
+    "web": "/assets/video/loopfest.mp4",
+    "sha256": "9de5a2bc6876c240028c1c50959fd5dca14e7e5e4b90c89d4a0c7154bae74320",
+    "note": "Matches archived original source hash; optimized MP4 and poster retained."
+  }
+]

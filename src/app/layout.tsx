@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/assets/loopfest/community.webp",
+        url: "/assets/loopfest/approved-community.webp",
         width: 1536,
         height: 2048,
         alt: "Gäste am echten LOOPFEST-Stand auf FRANKLIN",

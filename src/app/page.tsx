@@ -69,7 +69,7 @@ export default function Home() {
           <div className="hero-visual">
             <div className="photo-main">
               <Image
-                src="/assets/loopfest/community.webp"
+                src="/assets/loopfest/approved-community.webp"
                 alt="Besucherinnen und Besucher am Chicken-Stand beim LOOPFEST auf FRANKLIN"
                 fill
                 priority
@@ -90,7 +90,7 @@ export default function Home() {
             </div>
             <figure className="photo-small">
               <Image
-                src="/assets/loopfest/team.webp"
+                src="/assets/loopfest/approved-team.webp"
                 alt="Frische Chicken-Portionen werden beim LOOPFEST gemeinsam angerichtet"
                 width={390}
                 height={540}
@@ -148,9 +148,9 @@ export default function Home() {
           </div>
           <div className="proof-grid">
             <figure className="proof-photo">
-              <div className="proof-crop">
+              <div className="approved-proof-crop">
                 <Image
-                  src="/assets/loopfest/stand.webp"
+                  src="/assets/loopfest/approved-stand.webp"
                   alt="Das Team bereitet Chicken am mobilen LOOPFEST-Stand zu"
                   width={1200}
                   height={1600}
@@ -164,7 +164,7 @@ export default function Home() {
             </figure>
             <figure className="proof-photo second">
               <Image
-                src="/assets/loopfest/lean.webp"
+                src="/assets/loopfest/approved-lean.webp"
                 alt="Ein junger Mitwirkender neben dem bedruckten Aufsteller des Chicken-Projekts"
                 width={1126}
                 height={2000}
