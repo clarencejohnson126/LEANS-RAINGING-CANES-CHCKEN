@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import { Permanent_Marker, Kaushan_Script, Manrope } from "next/font/google";
 import { brand } from "@/config/brand";
@@ -45,6 +46,7 @@ export default function RootLayout({
         className={`${display.variable} ${script.variable} ${body.variable}`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
