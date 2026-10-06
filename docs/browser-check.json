@@ -1,0 +1,52 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "mobileMenuClosed": true
+    },
+    {
+      "mapSelection": "Sullivan Süd"
+    },
+    {
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "video": {
+        "playing": true,
+        "controls": true,
+        "duration": 11.833008
+      }
+    },
+    {
+      "promoPlays": true
+    },
+    {
+      "reducedMotion": "auto"
+    },
+    {
+      "brokenAnchors": [],
+      "missingAlts": 0
+    },
+    {
+      "route": "/impressum",
+      "status": 200
+    },
+    {
+      "route": "/datenschutz",
+      "status": 200
+    }
+  ],
+  "errors": []
+}
